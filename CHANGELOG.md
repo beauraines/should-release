@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/saintedlama/should-release/compare/v1.3.0...v1.3.1) (2024-06-24)
+
+
+### Bug Fixes
+
+* **deps:** bump yargs from 17.3.1 to 17.7.2 ([#4](https://github.com/saintedlama/should-release/issues/4)) ([b3ede4e](https://github.com/saintedlama/should-release/commit/b3ede4ed36fcb14762681a19f22a8e2e9e396971))
+
 ## 1.3.0 (2024-06-24)
 
 
