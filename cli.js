@@ -32,6 +32,7 @@ function whatBump(commits) {
 
     if (verbose) {
       console.log(
+        // eslint-disable-next-line prettier/prettier
         `commit ${commit.hash}: ${commit.subject} (type: ${commit.type}, notes: ${commit.notes.length}, breakingHeader: ${breakingHeader})`
       );
     }

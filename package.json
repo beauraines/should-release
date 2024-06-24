@@ -5,7 +5,7 @@
   "type": "module",
   "bin": "cli.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint *.js",
     "lint:fix": "eslint . --fix",
     "should-release": "node ./cli.js",
     "release": "standard-version"
