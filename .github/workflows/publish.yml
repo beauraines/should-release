@@ -39,11 +39,11 @@ jobs:
         if: steps.should_release.outcome == 'success'
         run: npm run release
 
-      - name: Publish to NPM
-        if: steps.should_release.outcome == 'success'
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+#      - name: Publish to NPM
+#        if: steps.should_release.outcome == 'success'
+#        run: npm publish
+#        env:
+#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Push commits to GitHub
         if: steps.should_release.outcome == 'success'
